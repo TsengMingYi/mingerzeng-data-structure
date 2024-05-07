@@ -21,9 +21,10 @@
     <licenses>
         <license>
             <name>MIT License</name>
-            <url>https://www.opensource.org/licenses/mit-license.php</url>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
+
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -31,7 +32,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub data-structure Apache Maven Packages</name>
+            <name>GitHub TsengMingYi Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/TsengMingYi/mingerzeng-data-structure</url>
         </repository>
     </distributionManagement>
@@ -60,10 +61,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>
@@ -99,5 +96,19 @@
             </plugin>
         </plugins>
     </build>
+
+    <developers>
+        <developer>
+            <name>TsengMingYi</name>
+            <email>www.mingerzeng@gmail.com</email>
+            <organization>io.github.tsengmingyi</organization>
+            <organizationUrl>https://github.com/tsengmingyi</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/tsengmingyi/mingerzeng-data-structure.git</connection>
+        <url>https://github.com/tsengmingyi/mingerzeng-data-structure</url>
+    </scm>
 
 </project>
