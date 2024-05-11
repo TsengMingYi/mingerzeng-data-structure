@@ -9,9 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+<!--    <dependency>-->
+<!--        <groupId>com.mingerzeng</groupId>-->
+<!--        <artifactId>data-structure</artifactId>-->
+<!--        <version>0.0.1-SNAPSHOT</version>-->
+<!--    </dependency>-->
     <groupId>io.github.tsengmingyi</groupId>
     <artifactId>data-structure</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <url>https://github.com/TsengMingYi/mingerzeng-data-structure</url>
     <licenses>
         <license>
