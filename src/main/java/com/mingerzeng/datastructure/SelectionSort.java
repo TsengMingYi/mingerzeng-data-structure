@@ -6,7 +6,6 @@ public class SelectionSort {
 
     public static <E extends Comparable<E>> void sort(E arr[]){
         for(int i = 0;i<arr.length;i++){
-
             //選擇 arr[i...n) 中的最小值的索引
             int minIndex = i;
             for(int j = i;j< arr.length;j++){
